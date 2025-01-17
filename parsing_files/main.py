@@ -24,14 +24,17 @@ def master(path: Path) -> None:
 
 
 def grab_folder(path: Path) -> None:
-    for el in path.iterdir():
-        if el.is_dir():
-            thread = Thread(target=grab_folder, args=(el,))
-            thread.start()
-        else:
-            suffix = el.suffix[1:]
-            thread = Thread(target=copy_file, args=(el, output / suffix))
-            thread.start()
+    logging.info("Waiting for Master order...")
+    with condition:
+        condition.wait()
+        for el in path.iterdir():
+            if el.is_dir():
+                thread = Thread(target=grab_folder, args=(el,))
+                thread.start()
+            else:
+                suffix = el.suffix[1:]
+                thread = Thread(target=copy_file, args=(el, output / suffix))
+                thread.start()
 
 
 def copy_file(file: Path, output_folder: Path) -> None:
