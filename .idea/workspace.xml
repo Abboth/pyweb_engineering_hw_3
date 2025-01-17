@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e883b990-94e6-4777-b7dd-07b0c78bfdf4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/python_engineering_hw3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parsing_files/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-    </list>
+    <list default="true" id="e883b990-94e6-4777-b7dd-07b0c78bfdf4" name="Changes" comment="Finished file parsing&#10;start to do factorize function" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +20,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Abboth/pyweb_engineering_hw_3.git",
+    "accountId": "00d1d1b7-22b6-4b75-b921-9c29a39b3079"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -66,7 +63,28 @@
       <option name="presentableId" value="Default" />
       <updated>1737036427470</updated>
     </task>
+    <task id="LOCAL-00001" summary="Finished file parsing&#10;start to do factorize function">
+      <option name="closed" value="true" />
+      <created>1737101454304</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737101454304</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Finished file parsing&#10;start to do factorize function">
+      <option name="closed" value="true" />
+      <created>1737101605766</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737101605766</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished file parsing&#10;start to do factorize function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished file parsing&#10;start to do factorize function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
