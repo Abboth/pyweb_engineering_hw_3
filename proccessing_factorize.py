@@ -2,8 +2,8 @@ from multiprocessing import cpu_count, Pool, current_process
 from time import time
 import logging
 
-
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(processName)s - %(message)s")
+
 
 def factorize(number: int):
     factors = []
@@ -12,7 +12,7 @@ def factorize(number: int):
         if number % i == 0:
             factors.append(i)
     pr_finish_time = time()
-    logging.info(f"{current_process().name} get Factorized of number: {number} "
+    logging.info(f"get Factorized of number: {number} "
                  f"in {pr_finish_time - pr_start_time:.2f} seconds")
     return factors
 
