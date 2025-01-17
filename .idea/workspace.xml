@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e883b990-94e6-4777-b7dd-07b0c78bfdf4" name="Changes" comment="Finished file parsing&#10;start to do factorize function">
-      <change afterPath="$PROJECT_DIR$/proccessing_factorize.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factorize.py" beforeDir="false" afterPath="$PROJECT_DIR$/factorize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proccessing_factorize.py" beforeDir="false" afterPath="$PROJECT_DIR$/proccessing_factorize.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737101652167</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finished file parsing&#10;start to do factorize function">
+      <option name="closed" value="true" />
+      <created>1737109076970</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737109076970</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -3,11 +3,17 @@ from time import time
 import logging
 
 
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(processName)s - %(message)s")
+
 def factorize(number: int):
     factors = []
+    pr_start_time = time()
     for i in range(1, number + 1):
         if number % i == 0:
             factors.append(i)
+    pr_finish_time = time()
+    logging.info(f"{current_process().name} get Factorized of number: {number} "
+                 f"in {pr_finish_time - pr_start_time:.2f} seconds")
     return factors
 
 
@@ -19,7 +25,7 @@ if __name__ == "__main__":
 
     with Pool(processes=cpu_count()) as pool:
         results = pool.map(factorize, numbers)
-        logging.info(f"{current_process().name} get Factorized numbers: {results}")
+
 
     a, b, c, d = results
 
